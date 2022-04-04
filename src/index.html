@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <title>TaskTracker</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="task-form" id="task-form">
+            <label class="section-title" for="task-input">TOP Tasks</label>
+            <input class="task-form__input" type="text" id="task-input">
+        </form>
+
+        <div class="task-section">
+            <h3 class="section-title">Pinned:</h3>
+            <span class="no-tasks" id="no-pinned">No pinned tasks...</span>
+            <div id="pinned-tasks"></div>
+        </div>
+
+        <div class="task-section">
+            <h3 class="section-title">All Tasks:</h3>
+            <div id="all-tasks"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
