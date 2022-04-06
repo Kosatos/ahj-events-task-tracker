@@ -87,7 +87,7 @@ export default class TaskTracker {
 
     if (pinnedTask.pinned === false) {
       pinnedTask.pinned = true;
-      pinnedTask.createTaskDOM(pinnedTask.taskName, 'pinned');
+      this.createTaskDOM(pinnedTask.taskName, 'pinned');
     } else {
       pinnedTask.pinned = false;
       this.createTaskDOM(pinnedTask.taskName, 'all');
