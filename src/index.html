@@ -22,14 +22,27 @@
         <div class="task-section">
             <h3 class="section-title">Pinned:</h3>
             <span class="no-tasks" id="no-pinned">No pinned tasks...</span>
-            <div id="pinned-tasks"></div>
+            <ul id="pinned-tasks"></ul>
         </div>
 
         <div class="task-section">
             <h3 class="section-title">All Tasks:</h3>
-            <div id="all-tasks"></div>
+            <ul id="all-tasks"></ul>
+            <span class="no-tasks hidden" id="no-found">No tasks found...</span>
         </div>
 
+    </div>
+
+    <!-- POPUP -->
+
+    <div id="popup" class="overlay">
+        <div class="popup">
+            <h2>Ошибка!</h2>
+            <a class="close" id="close-btn" href="#">&times;</a>
+            <div class="content">
+                Имя задачи должно содержать символы и не может начинаться с пробела
+            </div>
+        </div>
     </div>
 
 </body>

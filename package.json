@@ -1,7 +1,7 @@
 {
-  "name": "ahj-events-game",
+  "name": "ahj-events-task-tracker",
   "version": "1.0.0",
-  "description": "starwars game",
+  "description": "task tracker",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js",
@@ -16,7 +16,7 @@
     "preshow:dist": "yarn run build",
     "show:dist": "live-server dist"
   },
-  "repository": "https://github.com/Kosatos/ahj-events-game.git",
+  "repository": "https://github.com/Kosatos/ahj-events-task-tracker.git",
   "author": "Konstantin Muzyka <kosatkinms@mail.ru>",
   "license": "MIT",
   "devDependencies": {

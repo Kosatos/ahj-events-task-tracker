@@ -7,6 +7,7 @@
     },
     "parser": "@babel/eslint-parser",
     "rules": {
+      "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["pinnedTask"] }],
       "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"],
       "linebreak-style": 0,
       "no-console": ["error", { "allow": ["warn", "error", "log"] }],

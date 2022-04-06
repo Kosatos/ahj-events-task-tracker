@@ -1,5 +1,5 @@
-# Catch KYLO REN Game Vol.2
+# Task Tracker
 
-[![Build status](https://ci.appveyor.com/api/projects/status/cy4hpvqotg9v45cr?svg=true)](https://ci.appveyor.com/project/Kosatos/ahj-events-game)
+[![Build status](https://ci.appveyor.com/api/projects/status/7fctviqoyuhvr6at?svg=true)](https://ci.appveyor.com/project/Kosatos/ahj-events-task-tracker)
 
-[GitHub Pages](https://kosatos.github.io/ahj-events-game/)
+[GitHub Pages](https://kosatos.github.io/ahj-events-task-tracker/)
